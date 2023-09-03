@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgba(9, 151, 245, 0.952);
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+}
+
+.cabeca {
+    border: 2px solid rgba(220, 229, 231, 0.734);
+    background-color:#29f7f790;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.primeira {
+    display: flex;
+    gap: 32px;
+}
+
+.container {
+    width: 90%;
+    margin: 50px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.item {
+    border: 2px solid rgba(220, 229, 231, 0.734);
+    background-color: #3ff7f790;
+}
